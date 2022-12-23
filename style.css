@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Caramel&family=Unbounded:wght@300;500&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    font-size: 62.5%;
+    background-color: #FDF6F4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.header-section{
+    width: 100%;
+    height: 3rem;
+    background-color: #333A6D;
+    margin:0 ;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    /* padding:0; */
+    height: 3.2rem;
+  }
+.li-item{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin: 5.5rem;
+    justify-content: space-between;
+}
+li:hover{
+    transform: scale(1.5);
+    /* transition: transform .2s; */
+}
+.main-logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+    justify-content: space-between;
+}
+
+.head-developer{
+    color: aliceblue; font-family: 'Unbounded', cursive;
+}
+.head-saini{
+    
+    font-family: 'Caramel', cursive;
+    color: #BFA6B2;
+    /* margin-right: 730px; */
+    font-size: 2rem;
+}
+
+
+
+
+/* main section */
+
+.hello{
+    font-size: 3rem;
+    max-width: 18rem;
+}
+
+.ruler{
+    margin: 8rem;
+    height: 0.25rem;
+    width: 25rem;
+    background-color: #333A6D;
+}
